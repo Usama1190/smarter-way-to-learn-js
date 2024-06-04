@@ -67,13 +67,13 @@
 
 // 05 : What is the output of the following code
 
-var num = 12;
+// var num = 12;
 
-var anotherNum = 2;
+// var anotherNum = 2;
 
-var result = num % anotherNum;
+// var result = num % anotherNum;
 
-console.log(result);
+// console.log(result);
 
 
 // a. 0 *        b. 1          c. 6             d. 24
