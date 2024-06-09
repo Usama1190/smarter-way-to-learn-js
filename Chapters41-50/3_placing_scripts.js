@@ -1,0 +1,1 @@
+// chp 43 : placing scripts
