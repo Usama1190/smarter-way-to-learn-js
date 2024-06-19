@@ -322,3 +322,122 @@ function calcTot(price) {
 
 
 // Chp 38 : Functions : Local vs. Global variables
+
+/*
+var theSum;
+addNumbers();
+
+
+function addNumbers() {
+    theSum = 2 + 2;
+}
+    
+alert(theSum);
+*/
+
+/*
+function addNumbers() {
+    var theSum = 2 + 2;
+}
+    
+alert(theSum);
+*/
+
+/*
+var theSum = 1000;
+addNumbers();
+
+
+function addNumbers() {
+    var theSum = 2 + 2;
+}
+    
+
+var theSum = addNumbers();
+
+
+function addNumbers() {
+    var theSum = 2 + 2;
+    return theSum;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 39 : Switch Statements : How to start them
+
+
+/*
+if (dayOfWk ==="Sat" || dayOfWk === "Sun") {
+    alert("Whoopee!");
+}
+else if (dayOfWk === "Fri") {
+    alert("TGIF!");
+}
+else {
+    alert("Shoot me now!");
+}
+*/
+
+/*
+switch(dayOfWk) {
+    case "Sat" :
+        alert("Whoopee");
+        break;
+    case "Sun" :
+        alert("Whoopee");
+        break;
+    case "Fri" :
+        alert("TGIF!");
+        break;
+    default :
+        alert("Shoot me now!");
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 40 : Switch Statements : How to complete them
+
+/*
+switch(dayOfWk) {
+    case "Sat" :
+        alert("Whoopee");
+        break;
+    case "Sun" :
+        alert("Whoopee");
+        break;
+    case "Fri" :
+        alert("TGIF!");
+        break;
+    default :
+        alert("Shoot me now!");
+}
+*/
+
+
+/*
+default :
+    alert("Shoot me now!");
+}
+*/
