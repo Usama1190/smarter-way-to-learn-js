@@ -180,3 +180,113 @@ function makeBig() {
    document.getElementById("p1").className += " big";
 }
 */
+
+
+/*
+function makeBig() {
+   document.getElementById("p1").style.fontSize = "2em";
+}
+*/
+
+//  document.getElementById("pic99").style.cssFloat = "left";
+
+//  document.getElementById("div9").style.visibility = "hidden";
+
+// document.getElementById("mainPic").style.margin = "0 10px 0 10px;";
+
+
+// var m = document.getElementById("mainPic").style.margin;
+
+// var m = document.getComputedStyle("mainPic").margin;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 56 : Target all elements by tag name
+
+
+// getElementById(the id).style.fontSize = "2em";
+
+// var par = document.getElementsByTagName("p");
+
+
+/*
+<p>This bed is too small.</p>
+<p>This bed is too big.</p>
+<p>This bed is just right.</p>
+*/
+
+// var textInMiddleParagraph = par[1].innerHTML;
+
+//  par[1].innerHTML = "This SUV is too big.";
+
+
+/*
+for (var i = 0; i < par.length; i++) {
+   par[i].style.fontFamily = "Verdana, Geneva, sans-serif";
+}
+*/
+
+// var pics = document.getElementsByTagName("img");
+
+//  var divs = document.getElementsByTagName("div");
+
+//  var ulists = document.getElementsByTagName("ul");
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 57 : Target some elements by tag name
+
+//  var pars = document.getElementsByTagName("p");
+
+//  var textInMiddleParagraph = pars[1].innerHTML;
+
+
+/*
+var e = document.getElementByID("rules");
+var paragraphs = e.getElementsByTagName("p");
+*/
+
+//  document.getElementsByTagName("p");
+
+//  e.getElementsByTagName("p");
+
+
+/*
+var t = document.getElementById("table9");
+var cells = t.getElementsByTagName("td");
+
+for (var i = 0; i < cells.length; i++) {
+   cells[i].style.backgroundColor = "pink";
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+// Chp 58 : The DOM
