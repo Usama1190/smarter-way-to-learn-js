@@ -290,3 +290,169 @@ for (var i = 0; i < cells.length; i++) {
 
 
 // Chp 58 : The DOM
+
+
+/* 
+1st level: document
+ 2nd level:   <html>
+ 3rd level:     <head>
+ 4th level:       <title>
+ 5th level:         Simple document
+                 </title>
+               </head>
+ 3rd level      <body>
+ 4th level        <p>
+ 5th level          There's not much to this.
+                 </p>
+               </body>
+             </html>
+*/
+
+
+
+/*
+1st level: document
+ 2nd level:   <html>
+ 3rd level:     <head>
+ 4th level:       <title>
+ 5th level:         Simple document
+                 </title>
+               </head>
+ 3rd level      <body>
+ 4th level        <div>
+ 5th level          <p>
+ 6th level            There's not much to this.
+                   </p>
+ 5th level          <p>
+ 6th level            Nor to this.
+                   </p>
+                 </div>
+               </body>
+             </html>
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 59 : The DOM : Parent and Children
+
+
+/*
+1st level: document
+ 2nd level:   <html>
+ 3rd level:     <head>
+ 4th level:       <title>
+ 5th level:         Simple document
+                 </title>
+               </head>
+ 3rd level      <body>
+ 4th level        <div>
+ 5th level          <p>
+ 6th level            There's not much to this.
+                   </p>
+ 5th level          <p>
+ 6th level            Nor to this.
+                   </p>
+                 </div>
+               </body>
+             </html>
+*/
+
+
+// <p>This is <em>important</em>!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 60 : The DOM : Finding children
+
+
+//  var eField = document.getElementById("email");
+
+//  var eField = document.getElementsByTagName("p");
+
+//  var contents = p[2].innerHTML;
+
+
+/*
+var d = document.getElementById("div3");
+var p = d.getElementsByTagName("p");
+var contents = p[2].innerHTML;
+*/
+
+
+/*
+<body>
+   <div id="cal">
+      <p>Southern Cal is sunny.</p>
+      <p>Northern Cal is rainy.</p>
+      <p>Eastern Cal is desert.</p>
+   </div>
+   <div id="ny">
+      <p>Urban NY is crowded.</p>
+      <p>Rural NY is sparse.</p>
+   </div>
+</body>
+*/
+
+
+/*
+var p = document.getElementsByTagName("p");
+var contents = p[4].innerHTML;
+*/
+
+
+
+/*
+var div = document.getElementById("ny");
+var p = div.getElementsByTagName("p");
+var contents = p[1].innerHTML;
+*/
+
+
+/*
+var p = document.childNodes[0].childNodes[1].childNodes[1].childNodes[1];
+var contents = p.innerHTML;
+*/
+
+
+/*
+<body>
+   <div id="cal">
+      <p>Southern Cal is sunny.</p>
+      <p>Northern Cal is rainy.</p>
+      <p>Eastern Cal is desert.</p>
+   </div>
+   <div id="ny">
+      <p>Urban NY is crowded.</p>
+      <p>Rural NY is sparse.</p>
+   </div>
+</body>
+*/
+
+
+/*
+var d = document.getElementById("ny");
+var p = d.childNodes[1];
+var contents = p.innerHTML;
+*/
