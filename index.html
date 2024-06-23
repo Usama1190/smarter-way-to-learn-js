@@ -14,6 +14,28 @@
 
     <div id="div1"></div>
 
-    <script src="Chapters71-80/app.js"></script>
+    <!-- <form onSubmit="return checkForSelection();"> 
+        <select id="states">
+          <option value="" selected="selected">
+            SELECT A STATE</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+          </select>&nbsp;&nbsp;
+        <input type="submit" value="Submit Form">
+       </form> -->
+
+       <form onSubmit="return validateRadios();">
+        <input type="radio" name="r1"
+        value="cat"> Cat<br>
+        <input type="radio" name="r1"value="bat"> Bat<br>
+        <input type="radio" name="r1" value="hat"> Hat<br>
+        
+        
+        <input type="submit" value="Submit Form">
+        </form>
+
+    <script src="Chapters81-89/app.js"></script>
 </body>
 </html>

@@ -393,3 +393,92 @@ window.location.reload();
 
 
 // Chp 78 : Browser control : Forward and reverse
+
+
+//  history.back();
+
+// history.forward();
+
+// history.go(-3);
+
+//  history.go(2);
+
+// history.back();
+
+//  history.go(-1);
+
+// history.forward()
+
+// history.go(1);
+
+// var whereUserCameFrom = document.referrer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 79 : Browser control : Filling the window with content
+
+// var monkeyWindow = window.open();
+
+
+/*
+var monkeyWindow = window.open();
+var windowContent = "<h1>Capuchin monkey</h1><img src= 'monkey.jpg'><p>The word capuchin derives from a group of friars<br>named the Order of Friars Minor Capuchin who wear<br>brown robes with large hoods covering their heads.</p>";
+
+monkeyWindow.document.write(windowContent);
+
+console.log(monkeyWindow);
+*/
+
+// console.log(window.open());
+
+// window.open();
+
+// monkeyWindow.location.assign("http://www.animals.com/capuchin.html");
+
+// monkeyWindow.location.href = "http://www.animals.com/capuchin.html";
+
+//  var monkeyWindow = window.open("http://www.animals.com/capuchin.html");
+
+//  var monkeyWindow = window.open("capuchin.html");
+
+// monkeyWindow.close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Chp 80 : Browser control : Controlling the window's size and location
+
+// var monkeyWindow = window.open("monk.html", "win1");
+
+// var monkeyWindow = window.open("", "win1");
+
+// var w = window.open("", "", "width=420,height=380,left=200,top=100");
+
+// var windowSpecs = "'faq.html', 'faq', 'width=420,height=380,left=200,top=100'";
+// var faqPage = window.open(windowSpecs);
+
+
+// alert(faqPage);
