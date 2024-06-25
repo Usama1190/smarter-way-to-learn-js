@@ -438,3 +438,27 @@ user();
 // <input type="button" value="Click" onClick="sayHello();">
 
 // <input type="button" value="Click" id="button1">
+
+/*
+var b1 = document.getElementById("button1");
+b1.onclick = sayHello;
+*/
+
+
+// document.getElementById("button1").onclick = sayHello;
+
+/*
+function sayHello() {
+    alert("Hi there.");
+}
+*/
+
+/*
+var targetImg = document.getElementById("i12");
+targetImg.onmouseover = swapPic;
+*/
+
+/*
+var emailFrm = document.getElementById("form5");
+emailFrm.onsubmit = valEmail;
+*/
